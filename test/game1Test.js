@@ -16,6 +16,8 @@ describe('Game1', function () {
     // you must call unlock before you can win
 
     // leave this call to game.win() as-is
+    await game.unlock();
+
     await game.win();
 
     // leave this testing assertion as-is
